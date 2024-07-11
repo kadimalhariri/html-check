@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HTML-checkpoint</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>Home</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+
+        <section id="about">
+          <div>
+            <h2 style="margin-bottom: 150px;">Orderd list</h2>
+            <ol>
+                <li>Red</li>
+                <li>Green</li>
+                <li>Blue</li>
+            </ol>
+          </div>
+          <div>
+            <h2 style="margin-bottom: 150px;">Unorderd list</h2>
+            <ul>
+                <li>Red</li>
+                <li>Green</li>
+                <li>Blue</li>
+            </ul>
+          </div>
+          <div>
+            <h2 style="margin-bottom: 150px;">Orderd list with (I) type</h2>
+            <ol type="I">
+                <li>Red</li>
+                <li>Green</li>
+                <li>Blue</li>
+              
+            </ol>
+          </div>
+        </section>
+        <section id="work">
+           <table border="1">
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+                <td rowspan="2">e</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td colspan="2">30</td>
+                
+                <td>40</td>
+               
+            </tr>
+            <tr>
+                <td>green</td>
+                <td>blue</td>
+                <td colspan="2">red</td>
+               
+                <td>pink</td>
+            </tr>
+            <tr>
+                <td>15%</td>
+                <td>90%</td>
+                <td>2%</td>
+                <td>10%</td>
+                <td>100%</td>
+            </tr>
+           </table>
+        </section>
+
+        <section id="resume">
+            <div class="audio-part">
+                <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Listen to the music now !</h2>
+                <audio src="./img/fly me to the moon.mp3" controls></audio>
+            </div>
+           <div class="form-part">
+            <form action="">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your Email" id="email" min="3" max="10">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter your password" id="password">
+                <button type="submit">Send</button>
+            </form>
+           </div>
+        </section>
+        <section id="contact">
+            <video src="./img/IMG_9636.mov" autoplay controls></video>
+        </section>
+    </main>
+</body>
+</html>
